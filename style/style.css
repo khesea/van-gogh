@@ -111,7 +111,7 @@ body {
 
 @media (max-width: 500px) {
   .container {
-    padding: 40px 30px;
+    padding: 20px 30px;
   }
   .title__text {
     font-size: 16px;
