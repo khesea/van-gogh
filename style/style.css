@@ -1,0 +1,131 @@
+body {
+  font-family: Arial;
+  color: #232323;
+  font-style: normal;
+  margin: 0;
+  background: linear-gradient(88.17deg, #E3E8FF 2.56%, #ECEEF7 92.54%);
+}
+
+.container {
+  background: linear-gradient(88.17deg, #E3E8FF 2.56%, #ECEEF7 92.54%);
+  padding: 60px 360px;
+  transition: 0.3s;
+}
+
+.title__text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 130%;
+  color: #232323;
+  cursor: default;
+}
+
+.info__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  margin-bottom: 40px;
+  cursor: default;
+}
+
+.links {
+  display: flex;
+  column-gap: 122px;
+}
+
+.links__item {
+  display: flex;
+  column-gap: 15px;
+}
+
+.links__icon {
+  width: 37px;
+  height: 37px;
+  border-radius: 50%;
+  background-color: #8892EC;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.phone-icon {
+  background-image: url(../images/phone.svg);
+}
+
+.mail-icon {
+  background-image: url(../images/mail.svg);
+}
+
+.address-icon {
+  background-image: url(../images/clock.svg);
+}
+
+.links__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 37px;
+  margin-bottom: 12px;
+  cursor: default;
+}
+
+.links__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #4E4E4E;
+  cursor: default;
+}
+
+.links__text a {
+  text-decoration: none;
+  color: #4E4E4E;
+  transition: 0.3s;
+}
+
+.links__text a:hover {
+  opacity: 0.6;
+}
+
+@media (max-width: 1600px) {
+  .container {
+    padding: 60px 270px;
+  }
+  .links {
+    display: block;
+  }
+  .links__item {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    padding: 40px 180px;
+  }
+  .title__text {
+    font-size: 24px;
+  }
+  .info__text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 40px 30px;
+  }
+  .title__text {
+    font-size: 16px;
+  }
+  .info__text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .links__title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: default;
+  }
+  .links__text {
+    font-size: 16px;
+  }
+}
